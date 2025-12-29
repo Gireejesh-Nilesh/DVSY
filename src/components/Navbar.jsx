@@ -10,7 +10,7 @@ const Navbar = () => {
         <button>CARD</button>
         <button
           style={{ padding: "0.5rem 1rem" }}
-          className="bg-orange-500 rounded-md font-semibold"
+          className="bg-orange-500 rounded-md font-semibold active:scale-95 transition-transform duration-150 cursor-pointer"
         >
           GET IN TOUCH
         </button>

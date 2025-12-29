@@ -1,3 +1,4 @@
+import Explore from "./ExploreContainer";
 const Hero = () => {
   return (
     <div
@@ -11,20 +12,12 @@ const Hero = () => {
         >
           DESIGN & FREEDOM
         </h1>
-        <div
-          style={{ padding: "1rem" }}
-          className="flex items-center justify-between w-full"
-        >
+        <div className="flex items-center justify-around w-full gap-50">
           <p className="text-xl w-[40%] ">
             Explore Independent Style by Embracing Uniqueness with Our Exclusice
             Designer Apparel
           </p>
-          <div className="flex items-center gap-2 cursor-pointer">
-            <div className="w-10 h-10 bg-gray-600 rounded-[50%] flex items-center justify-center text-xl">
-              <i className="ri-arrow-down-line text-white"></i>
-            </div>
-            <h6>LEARN MORE</h6>
-          </div>
+          <Explore icon={<i className="ri-arrow-down-long-line"></i>} text="LEARN MORE"/>
         </div>
       </div>
     </div>
